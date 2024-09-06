@@ -1,0 +1,73 @@
+#menu01{
+   background-color: rgb(239, 235, 229);
+}
+#img01{
+    height: 100PX;
+    padding-left: 30px;
+    width: 200px;
+    border-radius: 50%;
+}
+#menu02{
+    padding-left: 40px;
+}
+#menu02 li{
+    padding-left: 40px;
+}
+#menu02 a{
+    font-size: 22px;
+}
+#menu02 a:hover{
+    color: brown;
+    font-size: 24px;
+    font-variant-ligatures: historical-ligatures;
+}
+/* from here is the code for make it more responsive */
+/* Media Query for Tablets (768px to 1024px) */
+@media (min-width: 768px) and (max-width: 1024px) {
+    #img01 {
+        width: 150px;
+        height: 80px;
+    }
+
+    #menu02 li {
+        padding-left: 30px;
+    }
+
+    #menu02 a {
+        font-size: 18px;
+    }
+}
+
+/* Media Query for smaller mobile devices */
+@media (max-width: 768px) {
+    #img01 {
+        width: 100px;
+        height: 60px;
+    }
+
+    #menu02 li {
+        padding-left: 10px;
+    }
+
+    #menu02 a {
+        font-size: 16px;
+    }
+}
+/* till here */
+
+#search01{
+    margin-top: 5%;
+}
+.SM01 input{
+    outline: 0;
+    border-width: 0 0 3px;
+    border-color: black;
+    font-size: 25px;
+    text-align: center;
+}
+.SM01 button{
+    width: 100px;
+    height: 50px;
+}
+
+
